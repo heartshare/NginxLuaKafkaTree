@@ -20,4 +20,9 @@ Nginx日志统一收集
       2）根据不同的业务的Nginx日志，划分不同的topic
       3) Lua实现producer异步发送到kafka集群
       5）对不同的日志感兴趣的业务组实时消费获取日志数据。
+
+      相关技术：
+              openresty
+              kafka
+              lua-resty=-kafka
 </pre>
